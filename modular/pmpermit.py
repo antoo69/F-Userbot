@@ -84,6 +84,20 @@ async def _(c: nlx, m):
     await babi.edit(cgr("pmper_6").format(em.sukses))
     return
 
+@ky.ubot("setdb pmpermin off")
+async def _(c: nlx, m):
+    em = Emojik()
+    em.initialize()
+    babi = await m.reply(cgr("proses").format(em.proses))
+    await asyncio.sleep(2)
+    user_id = c.me.id
+    
+    # Update the database to disable PM Permit
+    udB.set_var(user_id, "PMPERMIT", False)
+    
+    await babi.edit(cgr("pmper_10").format(em.sukses))
+    return
+
 
 @ky.ubot("setmsg")
 async def _(c: nlx, m):
