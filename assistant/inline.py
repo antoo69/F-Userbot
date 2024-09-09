@@ -107,7 +107,7 @@ async def _(c, iq):
 
 @ky.inline("^kalku_in")
 async def _(c, iq):
-    txt = "<b>Mix-Userbot Calculator</b>"
+    txt = "<b>Ferdi-Userbot Calculator</b>"
     berak = calc_help()
     await c.answer_inline_query(
         iq.id,
@@ -144,7 +144,7 @@ async def _(c, iq):
                 InlineQueryResultArticle(
                     title="Help Menu!",
                     description=f"Menu Bantuan",
-                    thumb_url="https://telegra.ph//file/57376cf2486052ffae0ad.jpg",
+                    thumb_url="https://telegra.ph/file/a23e9cf302c1da667bd89.jpg",
                     reply_markup=InlineKeyboardMarkup(
                         paginate_modules(0, CMD_HELP, "help")
                     ),
