@@ -38,7 +38,7 @@ Pillow==9.0.0
 pytz
 pyyaml
 lyricsgenius==3.0.1
-git+https://github.com/naya1503/SafoneAPI
+git+https://github.com/antoo69/SafoneAPI
 pytgcalls==3.0.0.dev24
 PySocks
 pexpect
