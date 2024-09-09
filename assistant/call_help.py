@@ -77,12 +77,12 @@ async def _(c, cq):
     kbt = ikb(
         [
             [
-                ("Support 1", "https://t.me/kynansupport", "url"),
-                ("Support 2", "https://t.me/gokilsupport", "url"),
+                ("Support 1", "https://t.me/Galerifsyrl", "url"),
+                ("Support 2", "https://t.me/gbtanfer", "url"),
             ],
             [
-                ("Channel 1", "https://t.me/kontenfilm", "url"),
-                ("Channel 2", "https://t.me/SquirtInYourPussy", "url"),
+                ("Channel 1", "https://t.me/filmlk21kw", "url"),
+                ("Channel 2", "https://t.me/BestieVirtual", "url"),
             ],
             [("Stats", "stats_mix")],
         ]
@@ -178,7 +178,7 @@ async def _(c, cq):
         else:
             try:
                 await cq.edit_message_text(
-                    text=text + f"\n<b>© Mix-Userbot - @KynanSupport</b>",
+                    text=text + f"\n<b>© Ferdi-Userbot - @Fsyrl</b>",
                     reply_markup=button,
                     disable_web_page_preview=True,
                 )
@@ -480,7 +480,7 @@ def cb_tespeed():
 @ky.callback("^gasbalap")
 async def _(c, cq):
     if cq.from_user.id != nlx.me.id:
-        return await cq.answer("LU SIAPA BANGSAT!! MAEN KLIK-KLIK BAE BAJINGAN.", True)
+        return await cq.answer("JANGAN DI KLIK YA BANGSAT.", True)
     kb = ikb([[(f"{cgr('ttup')}", "cls_hlp")]])
     await cq.edit_message_text(text="**Processing...**", reply_markup=kb)
     loop = asyncio.get_running_loop()
