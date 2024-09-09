@@ -32,8 +32,8 @@ async def check_logger():
     # if not ndB.get_key("TAG_LOG") and log_channel is None:
     if not chat_id:
         LOGGER.info("Creating Grup Log...")
-        nama = "Mix-Userbot Logs"
-        des = "Jangan Keluar Dari Grup Log Ini\n\nPowered by: @KynanSupport"
+        nama = "Ferdi-Userbot Logs"
+        des = "Jangan Out Dari Sini Ya Kampang\n\nPowered by: @Fsyrl"
         gc = await nlx.create_supergroup(nama, des)
         bhan = wget.download(f"{log_pic}")
         gmbr = {"video": bhan} if bhan.endswith(".mp4") else {"photo": bhan}
