@@ -1,5 +1,4 @@
 from team.nandev.class_log import LOGGER
-from . import getpay
 
 
 def import_modular():
