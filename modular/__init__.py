@@ -1,6 +1,5 @@
 from team.nandev.class_log import LOGGER
 
-
 def import_modular():
     import glob
     from os.path import basename, dirname, isfile
@@ -14,7 +13,8 @@ def import_modular():
 
     return all_modules
 
-
 USER_MOD = sorted(import_modular())
-# LOGGER.info("Userbot module loaded: %s", str(USER_MOD))
+# Uncomment the following line if you want to log the loaded modules
+LOGGER.info("Userbot module loaded: %s", str(USER_MOD))  # <-- Log modul yang dimuat
+
 __all__ = USER_MOD + ["USER_MOD"]
