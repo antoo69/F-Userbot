@@ -7,7 +7,7 @@ SHOPEEPAY_NUMBER = "+6287873724521 a/n antbar32"
 @Client.on_message(filters.command("getpay", prefixes=".") & filters.me)
 async def getpay(client, message):
     text = (
-        f"Nomor DANA: {DANA_NUMBER}\n"
-        f"Nomor ShopeePay: {SHOPEEPAY_NUMBER}"
+        f"DANA: {DANA_NUMBER}\n"
+        f"ShopeePay: {SHOPEEPAY_NUMBER}"
     )
     await message.reply_text(text)
