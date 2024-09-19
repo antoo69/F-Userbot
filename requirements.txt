@@ -51,5 +51,3 @@ numpy
 opencv-python
 git+https://github.com/naya1503/mypyrogram@dev
 tornado
-qrcode[pil]
-Pillow
