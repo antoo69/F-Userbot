@@ -14,7 +14,6 @@ def_bahasa = getenv("def_bahasa", "toxic")
 log_pic = getenv("log_pic", "https://telegra.ph/file/a23e9cf302c1da667bd89.jpg")
 heroku_api = getenv("heroku_api")
 heroku_app_name = getenv("heroku_app_name")
-ADMIN_IDS = list(map(int, os.getenv("ADMIN_IDS", "7083782157").split(',')))
 upstream_repo = getenv(
     "upstream_repo",
     "https://github.com/antoo69/F-Userbot",
